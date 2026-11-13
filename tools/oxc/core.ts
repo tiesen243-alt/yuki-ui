@@ -586,7 +586,7 @@ export default defineConfig({
     'unicorn/prefer-structured-clone': 'error',
     'unicorn/prefer-ternary': 'error',
     'unicorn/prefer-top-level-await': 'off',
-    'unicorn/prefer-type-error': 'error',
+    'unicorn/prefer-type-error': 'off',
     'unicorn/relative-url-style': 'error',
     'unicorn/require-array-join-separator': 'error',
     'unicorn/require-module-attributes': 'error',

@@ -75,7 +75,7 @@ const toastVariants = {
     description: 'text-success/80',
   },
   error: {
-    icon: 'CircleAlert',
+    icon: 'CircleExclamationPoint',
     root: 'bg-[color-mix(in_oklab,var(--destructive)_10%,var(--popover))] border-destructive/30',
     title: 'text-destructive',
     description: 'text-destructive/80',
@@ -87,7 +87,7 @@ const toastVariants = {
     description: 'text-info/80',
   },
   warning: {
-    icon: 'TriangleAlert',
+    icon: 'TriangleExclamationPoint',
     root: 'bg-[color-mix(in_oklab,var(--warning)_10%,var(--popover))] border-warning/30',
     title: 'text-warning',
     description: 'text-warning/80',

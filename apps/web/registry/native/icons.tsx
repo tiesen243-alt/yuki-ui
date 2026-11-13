@@ -19,7 +19,7 @@ const customIcons = {
 } satisfies Record<string, (props: LucideProps) => React.ReactElement>
 
 const icons = { ...lucideIcons, ...customIcons } as const
-type IconName = keyof typeof lucideIcons | keyof typeof customIcons
+type IconName = keyof typeof lucideIcons // | keyof typeof customIcons
 
 function Icon({
   name,
@@ -46,7 +46,6 @@ function Icon({
     ...props,
     sizeClassName: className,
     colorClassName: className,
-    className,
   })
 }
 

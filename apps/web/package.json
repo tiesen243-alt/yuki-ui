@@ -30,7 +30,7 @@
     "zod": "catalog:prod"
   },
   "devDependencies": {
-    "@tailwindcss/turbopack": "catalog:tailwind",
+    "@tailwindcss/postcss": "catalog:tailwind",
     "@types/mdx": "^2.0.14",
     "@types/node": "catalog:dev",
     "@types/react": "catalog:react",
